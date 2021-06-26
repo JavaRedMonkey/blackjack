@@ -12,11 +12,7 @@ import java.util.List;
 @Configuration
 @Data
 public class Deck {
-    private List<Card> deck = new ArrayList<>(
-            Arrays.asList(
-                   new Card (Suit.CLUB , Denomination.TWO , 2, "/image/C2.png"),
-                    new Card (Suit.CLUB , Denomination.THREE , 3, "/image/C3.png"),
-                    new Card (Suit.CLUB , Denomination.FOUR , 4, "/image/C4.png"),
+    private List<Card> deck = new ArrayList<>(Arrays.asList(
                     new Card (Suit.CLUB , Denomination.FIVE , 5, "/image/C5.png"),
                     new Card (Suit.CLUB , Denomination.SIX , 6, "/image/C6.png"),
                     new Card (Suit.CLUB , Denomination.SEVEN , 7, "/image/C7.png"),

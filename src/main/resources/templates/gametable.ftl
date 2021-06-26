@@ -9,5 +9,7 @@
 Hello GameTable
 <br>
 <img src="${firstcard.image}">
+<br>
+<a href="/ui/card/next"><button> next </button></a>
 </body>
 </html>
