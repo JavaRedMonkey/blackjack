@@ -30,5 +30,6 @@ public Card getFirstCard(){
 
     public Card getNextCard() {
  return (Card) deque.poll();
+
 }
 }
