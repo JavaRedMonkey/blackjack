@@ -21,7 +21,7 @@ Deque deque;
 }
 Card empty = new Card(null ,null, 0 , "/image/back.png");
 public Card getFirstCard(){
-   return deck.getDeck().get(4);
+   return deck.getDeck().get(0);
 }
 
     public Card emptyCard() {
